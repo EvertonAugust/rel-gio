@@ -4,6 +4,8 @@
     margin: 0;
     font-family: 'Source Sans Pro', sans-serif;
     user-select: none;
+    overflow:hidden; 
+    
 }
 
 body {
@@ -154,8 +156,9 @@ body {
    
 
     .body{
-        width: 700px;
-        height: 50%;
+        width: 60%;
+        height: 100%;
+        
     }
 
     .clock{
@@ -163,3 +166,5 @@ body {
         width: 350px;
     }
     }
+
+    

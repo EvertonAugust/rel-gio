@@ -4,15 +4,15 @@
     margin: 0;
     font-family: 'Source Sans Pro', sans-serif;
     user-select: none;
-    overflow:hidden; 
-    
+    overflow: hidden;
+
 }
 
 body {
     background-image: linear-gradient(43deg,
-    #D16BA5 0%,
-    #86A8E7 46%,
-    #5FFBF1 100%);
+            #D16BA5 0%,
+            #86A8E7 46%,
+            #5FFBF1 100%);
     height: 100vh;
     display: flex;
     align-items: center;
@@ -109,7 +109,7 @@ body {
     background-color: #000;
     transform: translate(-50%, -50%);
     border: 2px solid rgb(0, 0, 0);
-    
+
 }
 
 
@@ -153,18 +153,25 @@ body {
 
 @media only screen and (max-device-width: 600px) {
     /* .menu { width:400px; } */
-   
 
-    .body{
+
+    .body {
         width: 60%;
         height: 100%;
-        
+
     }
 
-    .clock{
+    .clock {
         height: 350px;
         width: 350px;
     }
+
+    .clock .hand.seconds{
+        height: 35%;
     }
 
-    
+    .clock .hand.hand.minutes {
+        height: 32%;
+        
+    }
+}

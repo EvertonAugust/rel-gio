@@ -148,3 +148,18 @@ body {
     height: 25%;
     background-color: black;
 }
+
+@media only screen and (max-device-width: 600px) {
+    /* .menu { width:400px; } */
+   
+
+    .body{
+        width: 700px;
+        height: 50%;
+    }
+
+    .clock{
+        height: 350px;
+        width: 350px;
+    }
+    }

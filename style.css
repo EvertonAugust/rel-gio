@@ -166,12 +166,28 @@ body {
         width: 350px;
     }
 
-    .clock .hand.seconds{
+    .clock .hand.seconds {
         height: 35%;
     }
 
     .clock .hand.minutes {
         height: 32%;
-        
+
+    }
+}
+
+@media(max-height:510px){
+    .clock {
+        height: 350px;
+        width: 350px;
+    }
+
+    .clock .hand.seconds {
+        height: 35%;
+    }
+
+    .clock .hand.minutes {
+        height: 32%;
+
     }
 }

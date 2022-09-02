@@ -178,8 +178,8 @@ body {
 
 @media(max-height:510px){
     .clock {
-        height: 350px;
-        width: 350px;
+        height: 320px;
+        width: 320px;
     }
 
     .clock .hand.seconds {
